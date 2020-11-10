@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&display=swap');
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    background-image: url(../asset/Image_bg.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+body{
+    margin: auto;
+    background-color: rgba(236, 240, 241,0.85);
+    max-width: 900px;
+    padding: 15px;
+    box-shadow: 0 10px 7px black;
+}
+h1{
+    font-family: 'Zhi Mang Xing', cursive;
+    text-align: center;
+    padding: 3rem;
+    font-size: 4.5rem;
+}
+h1,h2{
+    margin: 0;
+    font-weight: lighter;
+}
+a{
+    outline: none;
+    text-decoration: none;
+    color: #222;
+}
+
+header, main{
+    padding: 0.5rem;
+    max-width: 80rem;
+    margin: 0 auto;
+    border: solid .1rem transparent;
+    background-color: rgba(255,255,255,0.8);
+}
+header{
+    margin-top: 3rem;
+}
+header h1::before{
+    content: '\002605';
+    vertical-align: 0.3rem;
+    margin-right: 0.5rem;
+    color: rgba(231, 76, 60,1.0);
+}
+main nav h2, main section h2{
+    position: sticky;
+    top: 0;
+    padding: .5rem;
+    line-height: 4.5rem;
+    font-size: 3rem;
+    text-transform: capitalize;
+    background-color: rgba(52, 152, 219,1.0);
+    box-shadow: 0 .3rem 0 rgba(41, 128, 185,1.0);
+    color: rgba(255,255,255,1);
+    font-family: 'Zhi Mang Xing', cursive;
+}
+h2::after{
+    content:"\203A";
+    padding-left: 0.5rem;
+}
+main .pictures img{
+    display: block;
+    width: 100%;
+}
+nav ol{
+    margin: 1.5rem 0;
+}
+nav ol li{
+    line-height: 2.6rem;
+}
+section p{
+    padding: .5rem;
+    line-height: 2.6rem;
+    text-align: justify;
+}
+main section .pictures{
+    padding-bottom: .5rem;
+}
+main footer{
+    padding: .1rem;
+}
+main footer p{
+    text-align: center;
+    text-transform: capitalize;
+}
+main .histo{
+    transition-duration: 0.9s;
+}
