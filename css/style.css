@@ -10,10 +10,8 @@ html{
 }
 body{
     margin: auto;
-    background-color: rgba(236, 240, 241,0.85);
-    max-width: 900px;
-    padding: 15px;
-    box-shadow: 0 10px 7px black;
+    max-width: 90rem;
+    padding: 1rem;
 }
 h1{
     font-family: 'Zhi Mang Xing', cursive;
@@ -23,7 +21,7 @@ h1{
 }
 h1,h2{
     margin: 0;
-    font-weight: lighter;
+    font-weight: 500;
 }
 a{
     outline: none;
@@ -32,14 +30,15 @@ a{
 }
 
 header, main{
-    padding: 0.5rem;
-    max-width: 80rem;
-    margin: 0 auto;
+    width: 100%;
+    border-radius: .75rem;
+    margin: 1rem auto;
+    padding: 1rem;
     border: solid .1rem transparent;
     background-color: rgba(255,255,255,0.8);
 }
 header{
-    margin-top: 3rem;
+    margin-top: 0rem;
 }
 header h1::before{
     content: '\002605';
@@ -50,8 +49,9 @@ header h1::before{
 main nav h2, main section h2{
     position: sticky;
     top: 0;
-    padding: .5rem;
+    padding: .5rem 2rem;
     line-height: 4.5rem;
+    border-radius: .75rem;
     font-size: 3rem;
     text-transform: capitalize;
     background-color: rgba(52, 152, 219,1.0);
@@ -66,20 +66,28 @@ h2::after{
 main .pictures img{
     display: block;
     width: 100%;
+    border-radius: .75rem;
 }
 nav ol{
     margin: 1.5rem 0;
 }
 nav ol li{
     line-height: 2.6rem;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+section{
+    border-radius: .75rem;
+    margin: 1rem auto;
 }
 section p{
-    padding: .5rem;
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
     line-height: 2.6rem;
     text-align: justify;
 }
 main section .pictures{
-    padding-bottom: .5rem;
+    padding: 1rem;
 }
 main footer{
     padding: .1rem;
@@ -87,6 +95,7 @@ main footer{
 main footer p{
     text-align: center;
     text-transform: capitalize;
+    font-size: 1.6rem;
 }
 main .histo{
     transition-duration: 0.9s;
